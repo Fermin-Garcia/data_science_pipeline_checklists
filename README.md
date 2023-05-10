@@ -35,7 +35,9 @@ In this phase, the model is deployed into a production or production-like enviro
 Once the model is deployed, it needs to be monitored and maintained to ensure it's still performing as expected. This could involve retraining the model, performance checks, data drift detection, model versioning, and setting up alerting systems. [Detailed Checklist](./Monitoring_and_Maintenance.md)
 
 ## Reporting
-The reporting phase involves communicating the results of the model to stakeholders in a clear and concise manner. This may involve generating visualizations, summarizing model performance, and explaining model predictions. Some key points to consider in this phase include:
+The reporting phase involves communicating the results of the model to stakeholders in a clear and concise manner. This may involve generating visualizations, summarizing model performance, and explaining model predictions. [Detailed Checklist](./Reporting.md)
+
+Some key points to consider in this phase include:
 
 - Understand your audience and tailor your report to their level of technical understanding.
 - Choose appropriate visualizations that effectively communicate the insights from your model.
@@ -46,5 +48,5 @@ The reporting phase involves communicating the results of the model to stakehold
 ## Data Science Tech Stack
 This section providesa detailed description of the tech stack used in each phase of the data science pipeline. It covers a range of tools from Python, Jupyter Notebooks, various Python libraries, Git/GitHub, Docker, SQL/NoSQL Databases, Cloud Platforms, and MLflow. Detailed Checklist
 
-Please refer to the respective markdown files for a detailed checklist and tech stack for each phase of the data science pipeline.
+Please refer to the respective markdown files for a detailed checklist and tech stack for each phase of the data science pipeline.[Detailed Stack](./Tech_Stack.md)
 
