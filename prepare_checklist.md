@@ -1,35 +1,35 @@
-## Data Cleaning & Preprocessing
+## Data Preparation
 
-**1. Handle Missing Data**
-- Determine how much missing data there is for each column.
-- Decide on an approach for handling missing data:
-    - Remove rows with missing data.
-    - Impute missing values using a statistical method (mean, median, mode etc.).
-    - Use algorithms that can handle missing data.
+**1. Data Cleaning**
+- Remove duplicate records and handle missing values using techniques like imputation.
+- Python's `pandas` library provides numerous functions for this purpose.
 
-**2. Handle Outliers**
-- Identify outliers in the data.
-- Decide how to handle these outliers:
-    - Remove them.
-    - Transform them.
-    - Keep them if they're valid values.
+**2. Data Transformation**
+- Convert data into a format suitable for analysis. This might involve tasks like one-hot encoding for categorical data, normalization or standardization of numerical data, etc.
+- Libraries such as `pandas`, `NumPy` and `scikit-learn` offer utilities for these transformations.
 
-**3. Convert Data Types**
-- Check the current data types of all columns.
-- Convert data types if necessary (e.g. 'object' to 'category' for pandas DataFrame, 'string' to 'integer', etc.).
+**3. Feature Engineering**
+- Create new features from the existing data to better capture the underlying data patterns. This might include creating interaction terms, applying mathematical transformations, etc.
+- Domain knowledge can be very helpful in feature engineering.
 
-**4. Normalize/Standardize Data**
-- Decide whether your algorithms would benefit from data normalization or standardization.
-- Implement these transformations as needed.
+**4. Handling Outliers**
+- Identify and appropriately handle outliers in the dataset. Depending on the context, outliers may be removed, winsorized, or otherwise processed.
+- Visualization libraries like `Matplotlib` and `Seaborn` can help in identifying outliers.
 
-**5. Feature Engineering**
-- Based on your understanding of the problem and the data, create new features that might help improve model performance.
-- Consider techniques like binning, polynomial features, or interaction features.
+**5. Data Partitioning**
+- Split the data into training, validation, and testing sets for model training and evaluation.
+- The `train_test_split` function from `scikit-learn` can be used for this purpose.
 
-**6. Encoding Categorical Variables**
-- Identify categorical variables in your data.
-- Choose an appropriate encoding method (One-Hot, Label Encoding, etc.).
+**6. Handling Imbalanced Data**
+- If you have imbalanced classes in a classification problem, consider techniques like oversampling, undersampling, or generating synthetic samples.
+- The `imbalanced-learn` library in Python provides methods for dealing with imbalanced data.
 
-**7. Split the Data**
-- Split the data into training and test sets for machine learning.
-- You might also create a validation set or use cross-validation.
+**7. Feature Scaling**
+- Some machine learning algorithms require features to be on the same scale. Techniques such as min-max scaling or standardization can be used.
+- `Scikit-learn` provides utilities like `StandardScaler` and `MinMaxScaler` for this purpose.
+
+**8. Feature Selection**
+- Remove irrelevant or redundant features from your dataset to reduce dimensionality and improve model performance.
+- Techniques for feature selection can range from simple correlation analysis to more complex methods like recursive feature elimination.
+
+
