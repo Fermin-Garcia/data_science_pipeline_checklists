@@ -1,17 +1,21 @@
 # Data Science Pipeline
 
-This repository provides a detailed checklist and tech stack for each phase of a typical data science pipeline, from data acquisition to the ongoing monitoring and maintenance of deployed models.
+This repository provides a detailed checklist and tech stack for each phase of a typical data science pipeline, from planning to data acquisition, data preparation, exploratory data analysis, model building, model evaluation, model deployment, monitoring and maintenance, and reporting.
 
 ## Table of Contents
-1. [Data Acquisition](#data-acquisition)
-2. [Data Preparation](#data-preparation)
-3. [Exploratory Data Analysis](#exploratory-data-analysis)
-4. [Model Building](#model-building)
-5. [Model Evaluation](#model-evaluation)
-6. [Model Deployment](#model-deployment)
-7. [Monitoring and Maintenance](#monitoring-and-maintenance)
-8. [Reporting](#reporting)
-9. [Data Science Tech Stack](#data-science-tech-stack)
+1. [Planning](#planning)
+2. [Data Acquisition](#data-acquisition)
+3. [Data Preparation](#data-preparation)
+4. [Exploratory Data Analysis](#exploratory-data-analysis)
+5. [Model Building](#model-building)
+6. [Model Evaluation](#model-evaluation)
+7. [Model Deployment](#model-deployment)
+8. [Monitoring and Maintenance](#monitoring-and-maintenance)
+9. [Reporting](#reporting)
+10. [Data Science Tech Stack](#data-science-tech-stack)
+
+## Planning
+The planning phase sets the foundation for a successful data science project. It involves defining project goals, identifying stakeholders, assessing data availability and accessibility, resource allocation, creating a project timeline, considering data privacy and ethics, risk assessment, defining evaluation metrics, establishing communication and collaboration channels, and planning documentation and project review. [Detailed Checklist](./Planning.md)
 
 ## Data Acquisition
 This phase involves gathering data from various sources, which may include SQL databases, NoSQL databases, APIs, web scraping, file formats, cloud storage, and data streaming. It is important to ensure that the data collected is representative, legally and ethically sourced, and as clean as possible from the start. [Detailed Checklist](./Data_Acquisition.md)
@@ -37,16 +41,6 @@ Once the model is deployed, it needs to be monitored and maintained to ensure it
 ## Reporting
 The reporting phase involves communicating the results of the model to stakeholders in a clear and concise manner. This may involve generating visualizations, summarizing model performance, and explaining model predictions. [Detailed Checklist](./Reporting.md)
 
-Some key points to consider in this phase include:
-
-- Understand your audience and tailor your report to their level of technical understanding.
-- Choose appropriate visualizations that effectively communicate the insights from your model.
-- Use clear and concise language to explain your model's predictions and how they align with the business problem you are trying to solve.
-- Provide a summary of your model's performance, including the evaluation metrics used and how they compare to the initial goals.
-- Be prepared to answer questions and address concerns that stakeholders may have about the model.
 
 ## Data Science Tech Stack
-This section providesa detailed description of the tech stack used in each phase of the data science pipeline. It covers a range of tools from Python, Jupyter Notebooks, various Python libraries, Git/GitHub, Docker, SQL/NoSQL Databases, Cloud Platforms, and MLflow. Detailed Checklist
-
-Please refer to the respective markdown files for a detailed checklist and tech stack for each phase of the data science pipeline.[Detailed Stack](./Tech_Stack.md)
-
+This section provides a detailed description of the tech stack used in each phase of the data science pipeline. It covers a range of tools from Python, Jupyter Notebooks, various Python libraries, Git/GitHub, Docker, SQL/NoSQL Databases, Cloud Platforms, and MLflow. [Detailed Checklist](./Tech_Stack.md)
