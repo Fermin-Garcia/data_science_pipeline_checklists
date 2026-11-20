@@ -11,9 +11,6 @@
 **3. Revisit Preprocessing**
 - Based on what you've learned from training and evaluating your models, you might want to revisit the data cleaning and preprocessing stage.
 - You could try different transformations, handle outliers differently, or create new features.
-
-## Model Optimization (Continued)
-
 **4. Ensemble Methods**
 - If you haven't already, try using ensemble methods to improve your model's performance.
 - This could involve simple methods like bagging or voting, or more complex methods like boosting or stacking.
@@ -24,5 +21,5 @@
 
 **6. Advanced Techniques**
 - Depending on the complexity of your project and the resources available, you might want to explore more advanced optimization techniques.
-- These could include deep learning, gradient boosting machines (GBM), or other cutting-edge machine learning methods.
+- These could include deep learning, gradient boosting machines (GBM), or other more complex models.
 

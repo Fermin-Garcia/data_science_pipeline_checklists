@@ -44,4 +44,4 @@
 - An open-source platform for managing the end-to-end machine learning lifecycle.
 - It has three main components: tracking, projects, and models. It helps in keeping track of experiments, packaging code into reproducible runs, and sharing predictive models.
 
-This tech stack provides a robust, flexible, and scalable infrastructure for executing the data science pipeline effectively. While other tools can also be used based on specific requirements, this combination is popular due to the strong community support, extensive documentation, and ease of use.
+Other tools can fill the same roles. These are common choices with large communities and good documentation.

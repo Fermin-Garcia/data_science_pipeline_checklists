@@ -13,6 +13,7 @@ This repository provides a detailed checklist and tech stack for each phase of a
 8. [Monitoring and Maintenance](#monitoring-and-maintenance)
 9. [Reporting](#reporting)
 10. [Data Science Tech Stack](#data-science-tech-stack)
+11. [Model Optimization](#model-optimization)
 
 ## Planning
 The planning phase sets the foundation for a successful data science project. It involves defining project goals, identifying stakeholders, assessing data availability and accessibility, resource allocation, creating a project timeline, considering data privacy and ethics, risk assessment, defining evaluation metrics, establishing communication and collaboration channels, and planning documentation and project review. [Detailed Checklist](./Planning.md)
@@ -44,3 +45,6 @@ The reporting phase involves communicating the results of the model to stakehold
 
 ## Data Science Tech Stack
 This section provides a detailed description of the tech stack used in each phase of the data science pipeline. It covers a range of tools from Python, Jupyter Notebooks, various Python libraries, Git/GitHub, Docker, SQL/NoSQL Databases, Cloud Platforms, and MLflow. [Detailed Checklist](./Tech_Stack.md)
+
+## Model Optimization
+After a first round of evaluation, improve the model through feature selection, hyperparameter tuning, revisiting preprocessing, ensembles, and regularization. [Detailed Checklist](./Model_Optimization.md)

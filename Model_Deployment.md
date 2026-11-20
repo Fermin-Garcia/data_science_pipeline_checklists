@@ -17,12 +17,8 @@
 **5. Testing**
 - Test your deployment to make sure it works correctly. This includes unit tests, integration tests, and system tests.
 
-**6. Alerting System**
-- Set up an alerting system to notify you when model performance drops below a certain threshold, or when data drift is detected.
-- This allows for quick action to be taken to mitigate any issues.
-- Make sure to test the alerting system and ensure it correctly triggers under the set conditions.
-- Consider different levels of alerts based on the severity of performance drop or drift, and plan appropriate actions for each level.
-
+**6. Monitoring**
+- Once deployed, track performance and data drift. See [Monitoring and Maintenance](./Monitoring_and_Maintenance.md).
 
 **7. Documentation and Reporting**
 - Continually update your documentation and reports to reflect the current status of your model, including any changes, updates, or identified issues.

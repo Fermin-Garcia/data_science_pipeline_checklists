@@ -18,7 +18,7 @@
 
 **5. Write a Final Report**
 - Compile all of this information into a final report. This might be a paper, a slide deck, a blog post, or some other format.
-- Make sure to communicate not only your methods and results, but also the implications of your work. What does your model mean for the business or organization? How can they use it to make better decisions?
+- Explain your methods, your results, and what they mean in practice. What does your model mean for the business or organization? How can they use it to make better decisions?
 
 **6. Code and Model Versioning**
 - Use tools like git for code versioning, and model versioning tools to keep track of different model versions and their performance.

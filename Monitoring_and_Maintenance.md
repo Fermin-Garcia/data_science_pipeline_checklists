@@ -11,7 +11,7 @@
 
 **3. Model Retraining**
 - Depending on the domain, the model may require retraining over time, either on a regular basis or triggered by certain conditions (e.g., significant data drift).
-- Ensure to have a pipeline in place for retraining the model with new data and re-deploying it.
+- Have a pipeline in place for retraining the model with new data and re-deploying it.
 
 **4. Model Versioning**
 - Keep track of different versions of the model, especially when retraining and deploying new models.
@@ -22,5 +22,3 @@
 - This allows for quick action to be taken to mitigate any issues.
 - Make sure to test the alerting system and ensure it correctly triggers under the set conditions.
 - Consider different levels of alerts based on the severity of performance drop or drift, and plan appropriate actions for each level.
-
-Monitoring and maintaining your model is crucial to ensure its longevity and usefulness. Proper attention to these steps will ensure your model continues to provide value over time.

@@ -31,7 +31,7 @@
 
 **1. Accuracy**
 - The ratio of correct predictions to total predictions.
-- Not useful if the classes are imbalanced.
+- Can be misleading when the classes are imbalanced.
 
 **2. Precision (Positive Predictive Value)**
 - Of the samples predicted as positive, how many are actually positive?
@@ -50,8 +50,8 @@
 - Useful for evaluating binary classification models.
 
 **6. Log Loss**
-- For binary classification, it's the negative average of the log of the predicted probabilities for the actual classes.
-- Suitable for multiclass classification and provides a more nuanced view than accuracy.
+- The negative average log of the predicted probability for each sample's true class.
+- Rewards confident correct predictions and heavily penalizes confident wrong ones. Works for binary and multiclass problems.
 
 ### Regression Metrics
 
@@ -61,11 +61,11 @@
 
 **2. Mean Squared Error (MSE)**
 - The average of the squared differences between predictions and actual values.
-- More popular than MAE because it "punishes" larger errors.
+- Squares each error, so large errors are penalized more heavily than in MAE.
 
 **3. Root Mean Squared Error (RMSE)**
 - The square root of the Mean Squared Error.
-- Even more popular than MSE because it's interpretable in the "y" units.
+- Easier to interpret than MSE because it is in the same units as the target.
 
 **4. R-Squared (Coefficient of Determination)**
 - Proportion of the variance in the dependent variable that is predictable from the independent variable(s).
@@ -74,8 +74,13 @@
 ### Clustering Metrics
 
 **1. Silhouette Coefficient**
-- Measure of how close each sample in one cluster is to the samples in the neighboring clusters.
-- Useful for assessing the validity of the clustering output.
+- Compares how close each sample is to its own cluster with how close it is to the nearest other cluster. Ranges from -1 to 1.
+- Values near 1 mean tight, well-separated clusters; values near 0 mean overlapping clusters.
 
 **2. Davies-Bouldin Index**
-- The average similarity measure of each
+- The average ratio of within-cluster spread to between-cluster distance, comparing each cluster with the cluster most similar to it.
+- Lower values mean better-separated clusters.
+
+**3. Inertia (Within-Cluster Sum of Squares)**
+- The sum of squared distances from each sample to its cluster center.
+- Plotting inertia against the number of clusters (the elbow method) helps choose the number of clusters.
